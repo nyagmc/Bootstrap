@@ -1,0 +1,106 @@
+
+*{margin:0; padding:0}
+
+body{background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+margin-bottom: 25px;}
+
+    
+    ul{ display: flex;
+        flex-direction:row;
+        justify-content: center;
+        font-size: 30px;
+        list-style-type:none;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        width: 100%;
+        
+    }
+/*     
+    li a{
+        text-decoration:none;
+        color: white;
+        font-weight: bold;
+    } */
+
+    #navbarNav a{ 
+          width: 100%;
+        height: 40px;
+        margin-bottom: 40px;
+        color: white;
+        padding-left: 50px;
+     }
+
+     .navbar img{ 
+                width: 70px;
+                height: 70px;
+            }
+
+.imgg{ position: relative; right: 100px;}
+
+.navbar{
+    height: 60px
+}
+
+li a:hover{color: red}
+
+
+label , h1 , h2{color:white;
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 40px ;}
+
+ .cover{   background-image: url(res/blurred.png); 
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin-top: 20px;  }
+
+.kkk , .fhorm {margin-top: 70px}
+h1{position: relative; top:200px;
+    text-shadow: 7px 7px 5px grey
+  }
+
+
+.one , .two , .three{display: flex;
+     flex-direction: row;
+     justify-content:center;
+     justify-content: space-evenly;
+     margin: 20px;
+}
+
+/*.one img:hover{opacity: 0.2}
+.two img:hover{opacity: 0.2}
+.three img:hover{opacity: 0.2}*/
+
+textarea{font-size: 20px;
+    font-family: Arial;
+}
+
+.imgcontainer{ z-index: 0;}
+
+.btns{
+    position: absolute; 
+   text-decoration: none;
+}
+
+.modal{
+    font-size: 15px;
+    border-color: black;
+    height: 125px !important;
+}
+
+
+.btnz{
+    text-decoration: none;
+    color: black;
+}
+
+.divet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
